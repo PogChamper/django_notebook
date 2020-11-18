@@ -1,4 +1,4 @@
-Describtion:
+Description:
 
 simple notebook Django project
 sqlite database for posts
