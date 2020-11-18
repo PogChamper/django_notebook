@@ -1,3 +1,8 @@
+Describtion:
+
+simple notebook Django project
+sqlite database for posts
+
 Start:
 
 1. git clone https://github.com/PogChamper/django_notebook
