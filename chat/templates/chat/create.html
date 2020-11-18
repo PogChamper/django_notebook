@@ -1,0 +1,16 @@
+{% extends 'chat/base.html' %}
+
+{% block title %}
+Cоздать 
+{% endblock %}
+
+{% block content %}
+    <h1>Создать новую и очень интересную запись</h1>
+    <form method="post">
+    	{% csrf_token %}
+    	{{ form.title }}<br>
+        {{ form.description }}<br>
+        <button type="submit" class="btn btn-success">Добавить</button>
+        <span>{{ error }}</span>
+    </form>
+{% endblock %}
