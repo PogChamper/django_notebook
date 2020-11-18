@@ -1,7 +1,6 @@
 Description:
 
-simple notebook Django project
-sqlite database for posts
+simple notebook Django project with sqlite database for posts
 
 Start:
 
